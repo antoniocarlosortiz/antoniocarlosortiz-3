@@ -3863,3 +3863,26 @@ ul.project-detail-block, .project-detail-block ul {
         visibility: hidden;
     }
 }
+
+
+/* ----------------------------------*/
+/* My Edits*/
+/* ----------------------------------*/
+#image-caption {
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    z-index: 99;
+    padding: 10px;
+}
+
+    #image-caption h2 {
+        margin: 0;
+        padding: 0;
+        color: white;
+        letter-spacing: 1px;
+    }
+
+    #image-caption p {
+        color: white;
+    }
