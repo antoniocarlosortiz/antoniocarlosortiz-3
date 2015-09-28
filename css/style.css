@@ -3886,3 +3886,10 @@ ul.project-detail-block, .project-detail-block ul {
     #image-caption p {
         color: white;
     }
+
+#product-image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
