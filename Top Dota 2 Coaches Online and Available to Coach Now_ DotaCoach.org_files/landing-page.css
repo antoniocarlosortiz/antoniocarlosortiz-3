@@ -1,0 +1,457 @@
+/*!
+ * Contains some elements from Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    font-size: 16px;
+}
+
+.intro-header 
+{
+    padding: 10px 16px 85px 16px;
+    margin: 0 auto;
+    background: #888;
+    background-position: right bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+
+.navbar-default {
+    background: none;
+    border: none;
+}
+
+.navbar-right
+{
+    margin-top: 6px;
+    font-size: 13pt;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover  {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.logo-backtrack {
+    padding-top: 18px;
+    margin-left: -20px;
+}
+
+.header-hat {
+    display: block;
+    margin: 0 auto 0px auto;
+}
+
+.header-hat a {
+    color: white;
+}
+
+.header-body {
+    margin-top: 30px;
+    text-shadow: 2px 2px 9px rgba(0,0,0,0.81);
+}
+
+section.intro-header h1 {
+    display: block;
+    text-shadow: 2px 2px 9px rgba(0,0,0,0.81);
+    color: #FFF;
+    font-size: 3.7em;
+    font-weight: 700;
+    line-height: 1.25em;
+    opacity: 0.9;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    display: block;
+    font-size: 2.2em;
+    font-weight: 500;
+    line-height: 1em;
+}
+
+section.intro-header h2 {
+    color: #FFF;
+    text-shadow: 2px 2px 9px rgba(0,0,0,0.81);
+    opacity: 0.9;
+    margin: 8px 0 0 0;
+    padding: 0;
+}
+
+section.intro-header .uldesc {
+    padding: 25px;
+    background: rgba(180,180,180,0.3);
+    text-align: center;
+    /* box-shadow: 0 0 16px 0 rgba(255,255,255,0.09); */
+    margin: 0 auto;
+    border: 1px solid #FFF;
+    border-radius: 9px;
+    width: 90%;
+    font-size: 18px;
+    color: #FFF;
+    text-shadow: 2px 2px 9px rgba(0,0,0,0.81);
+    height: 225px;
+    vertical-align: middle;
+}
+
+section.intro-header .button-box {
+    margin: 20px auto 0px auto;
+    overflow: hidden;
+    padding: 0;
+}
+
+section.hire-coach-video li {
+    vertical-align: top;
+}
+
+.fb-like-section {
+    margin: 16px 0 0 0;
+    display: block;
+    width: 90%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.hire-coach-video {
+    padding: 40px;
+    background: #ccc;
+    color: #000;
+    text-align: left;
+}
+
+.holiday-gift {
+    padding: 40px;
+    background: #ccc;
+    color: #000;
+    text-align: left;
+}
+
+.student-quotes {
+    background: #030303;
+    color: #fff;
+}
+
+.student-quotes blockquote {
+    margin-top: 0;
+}
+
+.become-coach {
+    background: #ccc;
+    padding: 40px;
+}
+
+.holiday-gift .container {
+}
+
+.video-container {
+    text-align: right;
+}
+
+.dropdown-menu {
+    font-size: 16px;
+}
+
+.carousel-caption p {
+    font-size: 16px;
+    line-height: 1.1;
+    color: #FFFFB8;
+}
+
+
+.embossedbox {
+    margin-top: 15px;
+    height: 150px;
+}
+
+.embossedbox img {
+    box-shadow: 0px 0px 5px 3px rgba(75,75,75,0.8);
+}
+
+.hero-outer {
+    width: 205px;
+    height: 115px;
+    -webkit-box-shadow: 0px 0px 10px #4d4d4d;
+    -moz-box-shadow: 0px 0px 10px #4d4d4d;
+    box-shadow: 0px 0px 10px #4d4d4d;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -khtml-border-radius: 8px;  
+    border-radius: 8px;
+    border:solid white 3px;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.hero {
+    padding: 0;
+     -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -khtml-border-radius: 8px;  
+    border-radius: 8px;
+    width: 205px;
+    height: 115px;
+    overflow: hidden;
+}
+
+.iWantGroup {
+    text-shadow: none;
+}
+
+.form-group {
+    margin: 0;
+}
+
+.form-horizontal .control-label {
+    text-align: right;
+    padding-top: 10px;
+}
+
+#roleTab select {
+    margin-top: 30px;
+}
+
+#mmrui {
+    padding-top: 10px;
+}
+
+blockquote {
+  border-left: none;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+.pro-team {
+    margin-top: 25px;
+    height: 110px;
+}
+
+.pro-team img {
+    float: left;
+    margin-right: 10px;
+}
+
+blockquote footer {
+    padding: initial;
+    background-color:initial;
+    font-size: 15px;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+.carousel-caption footer a {
+    color: #337ab7;
+}
+.carousel .item {
+  height: 150px;
+}
+
+.student-quotes blockquote {
+    line-height: 1.0;
+}
+
+.carousel-caption {
+    padding: 0;
+}
+
+.carousel-caption {
+    left: 15%;
+    right: 15%;
+}
+
+.topcoach-box {
+    margin-top: 20px;
+}
+
+section.pro-coaches {
+    background: #fff;
+    padding: 40px;
+    margin: 0px;
+}
+
+section.pro-coaches ul {
+    margin-left: 90px;
+}
+
+section.pro-coaches li {
+    margin-left: 0px;
+}
+
+.btn-default {
+    padding: 12px 24px;
+    font-weight: bold;
+    border: #777 solid 1px;
+}
+
+section.twitch-section {
+    background-color: #6441A5;
+    padding: 40px;
+}
+
+section.twitch-section h2 {
+    color: #F1F1F1;
+    margin-top: 0px;
+}
+
+.btn img {
+    margin-right: 10px;
+}
+
+.twitch-section a {
+    padding: 10px 24px 10px 24px;
+    margin-top: 10px;
+}
+
+section.pro-coaches h3 {
+    font-weight: 500;
+    margin: 0px;
+}
+
+.featured-team {
+    margin-top: 20px;
+}
+
+.featured-team img {
+    margin-right: 15px;
+}
+
+@media (max-width: 991px) {
+    .topcoach-box {
+        margin-top: 0px;
+    }
+    
+    .header-body {
+        margin-top: 20px;
+    }
+
+    section.intro-header h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 2.0em;
+    }
+
+    section.intro-header .uldesc {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .video-container {
+        text-align: center;
+    }
+
+    .carousel-caption p {
+        font-size: 14px;
+    }
+
+    blockquote footer {
+        font-size: 13px;
+    }
+
+    section.intro-header .uldesc {
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    
+    .header-body {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    section.intro-header .uldesc {
+        font-size: 14px;
+    }
+
+    section.intro-header .uldesc span {
+        font-size: 15px;
+    }
+
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    section.intro-header h1 {
+        font-size: 1.75em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    ol.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ol.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+
+    .btn-dota {
+        background-size: 100%;
+        width: 274px;
+        height: 48px;
+        padding-top: 12px;
+        font-size: 16px;
+    }
+
+    .btn-dota:hover, .btn-dota:focus, .btn-dota:active
+    {
+        background-size: 100%;
+    }
+
+    .carousel-caption p {
+        font-size: 11px;
+    }
+
+    blockquote footer {
+        font-size: 10px;
+    }
+}

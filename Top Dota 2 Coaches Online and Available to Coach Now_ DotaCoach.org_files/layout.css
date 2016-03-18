@@ -1,0 +1,234 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1 { font-size: 30px; }
+h2 { font-size: 24px; }
+h3 { font-size: 20px; }
+
+body
+{
+    background-color: #f8f8f8;
+    font-size: 14px;
+}
+
+a {
+    font-weight: 500;
+}
+
+.navbar-black
+{
+    background-color: #fff;
+    border-color: #ccc;
+    border-radius: 0;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    margin-bottom: 0;
+    min-height: 60px;
+}
+
+.navbar-brand
+{
+    font-size: 22px;
+    margin-top: 2px;
+}
+
+.navbar-brand img {
+    margin-top: -5px;
+}
+
+.navbar-right
+{
+    margin-top: 6px;
+}
+
+.nav li a:hover {
+    background: none;
+    text-decoration: underline;
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+footer a {
+    color: #333;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+.content
+{
+    padding: 35px 20px;
+    border-top: 1px solid #F1F1F1;
+    border-right: 1px solid #E7E6E6;
+    border-left: 1px solid #E7E6E6;
+    background: white;
+    padding-bottom: 30px;
+    border-radius: 6px;
+    border-bottom: 1px solid #CFCFCF;
+    min-height: 400px;
+}
+
+.slider
+{
+    border: 0; 
+    color:#f6931f; 
+    font-weight:bold;
+}
+
+.btn-dota
+{
+    padding-top: 15px;
+    color: #C7C7C7;
+    background: url('dota-button.png');
+    border: none;
+    max-width: 319px;
+    width: 100%;
+    height: 55px;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-shadow: 2px 2px #000000;
+    box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.4); 
+}
+
+.btn-dota:hover, .btn-dota:focus, .btn-dota:active
+{
+    color: #EEEEEE;
+    background: url('dota-button.png');
+}
+
+.topbreak
+{
+    margin-top: 30px;
+}
+
+.hidden
+{
+    display: none;
+}
+
+.btn-cancel
+{
+    margin-top: 20px;
+}
+
+.matchMakingStatus
+{
+    background: #17181A url('/Content/Images/dota-matchmaking-status.jpg') no-repeat;
+    background-size: contain;
+    max-width: 550px;
+    height: 170px;
+    width: 100%;
+    box-shadow: 0px 0px 10px #416D6A; 
+    color: White;
+    font-size: 20px;
+    padding-top: 55px;
+    text-align: center;
+}
+
+.title-row {
+    text-align: center;
+    margin: 70px 0px 10px 0px;
+}
+    
+.fieldDescription
+{
+    font-size: 8pt;
+    display: inline-block;
+    color: grey;
+}
+
+.navbar-brand>img {
+    display: inline-block;
+}
+
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+
+.bs-callout {
+    padding: 20px;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+
+.bs-callout-warning {
+    border-left-color: #f0ad4e;
+}
+
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.bs-callout-warning h4 {
+    color: #f0ad4e;
+}
+
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+
+.bs-callout-danger h4 {
+    color: #d9534f;
+}
+
+.bs-callout-success {
+    border-left-color: #398439;
+}
+
+.bs-callout-success h4 {
+    color: #398439;
+}
+
+.rating-container {
+    font-size: 0.7em;
+}
+
+.rating-xs {
+    line-height: 23px;
+}
+
+.DotaBuff {
+    background-color: red;
+    color: white;
+    font-size: 0.8em;
+    text-transform: capitalize;
+    padding: 2px 10px 2px 10px;
+    border-radius: 0 0 5px 5px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.DotaBuff:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+    background-color: #ddd;
+}
+
